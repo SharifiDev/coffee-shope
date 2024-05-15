@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sharifidev.github.io/coffee-shope/static/css/main.b3c631a1.css",
+    "main.js": "/sharifidev.github.io/coffee-shope/static/js/main.c83bac7c.js",
+    "static/media/headerBgDesktop.webp": "/sharifidev.github.io/coffee-shope/static/media/headerBgDesktop.985f39c12e39a6e653ec.webp",
+    "static/media/body-bg.png": "/sharifidev.github.io/coffee-shope/static/media/body-bg.db1e0a2d2db7a7f2a976.png",
+    "static/media/category-right.jpg": "/sharifidev.github.io/coffee-shope/static/media/category-right.3d6ad9163d3659d19117.jpg",
+    "static/media/DanaFaNum-DemiBold.woff2": "/sharifidev.github.io/coffee-shope/static/media/DanaFaNum-DemiBold.606ee4ede1f9de62b0bc.woff2",
+    "static/media/DanaFaNum-Regular.woff2": "/sharifidev.github.io/coffee-shope/static/media/DanaFaNum-Regular.cd89c4bbb5d68d78d5fd.woff2",
+    "static/media/DanaFaNum-Medium.woff2": "/sharifidev.github.io/coffee-shope/static/media/DanaFaNum-Medium.3c7fcbd8ab0682219f68.woff2",
+    "static/media/headerBgMobile.webp": "/sharifidev.github.io/coffee-shope/static/media/headerBgMobile.7f1bfedf9eaccf4549d9.webp",
+    "static/media/Morabba-Bold.woff2": "/sharifidev.github.io/coffee-shope/static/media/Morabba-Bold.c2226cdf6963e1c9d6a3.woff2",
+    "static/media/Morabba-Medium.woff2": "/sharifidev.github.io/coffee-shope/static/media/Morabba-Medium.f43b343a3fdab75d4ad7.woff2",
+    "static/media/Morabba-Light.woff2": "/sharifidev.github.io/coffee-shope/static/media/Morabba-Light.c98a9f827e3473976008.woff2",
+    "index.html": "/sharifidev.github.io/coffee-shope/index.html",
+    "main.b3c631a1.css.map": "/sharifidev.github.io/coffee-shope/static/css/main.b3c631a1.css.map",
+    "main.c83bac7c.js.map": "/sharifidev.github.io/coffee-shope/static/js/main.c83bac7c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3c631a1.css",
+    "static/js/main.c83bac7c.js"
+  ]
+}
