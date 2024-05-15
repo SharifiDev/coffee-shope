@@ -1,0 +1,216 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar {
+  width: 8px;
+  @apply bg-gray-300 dark:bg-gray-800 
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 dark:bg-gray-700
+  ; /* رنگ مورد نظر */
+  
+}
+
+
+@layer base {
+  @font-face {
+    font-family: "Dana";
+    src: url("../public/fonts/Dana/woff2/DanaFaNum-Regular.woff2"),
+      format("woff2");
+  }
+  @font-face {
+    font-family: "Dana Bold";
+    src: url("../public/fonts/Dana/woff2/DanaFaNum-DemiBold.woff2"),
+      format("woff2");
+  }
+  @font-face {
+    font-family: "Dana Medium";
+    src: url("../public/fonts/Dana/woff2/DanaFaNum-Medium.woff2"),
+      format("woff2");
+  }
+
+  /* font morbba  */
+
+  @font-face {
+    font-family: "Morabba";
+    src: url("../public/fonts/Morabba/woff2/Morabba-Light.woff2"),
+      format("woff2");
+  }
+  @font-face {
+    font-family: "Morabba Bold";
+    src: url("../public/fonts/Morabba/woff2/Morabba-Bold.woff2"),
+      format("woff2");
+  }
+  @font-face {
+    font-family: "Morabba Medium";
+    src: url("../public/fonts/Morabba/woff2/Morabba-Medium.woff2"),
+      format("woff2");
+  }
+  body {
+    @apply font-dana;
+  }
+}
+
+@layer components {
+  @media  screen and (min-width:1365px) {
+      .boot{
+        @apply flex justify-between items-center
+      
+    }
+  }
+  @media  screen and (max-width:1365px) {
+      .text-footer{
+        @apply mt-4
+      
+    }
+  }
+  .ltr-text{
+    direction: ltr;
+    text-align: left;
+  }
+  @media screen and (min-width: 1280px) {
+    html.dark .bg-porducts {
+      background-image: url("../public/images/body-bg.png");
+    }
+    .bg-porducts {
+      background: linear-gradient(
+          rgba(243, 244, 256, 0.65),
+          rgba(243, 244, 256, 0.65)
+        ),
+        url("../public/images/body-bg.png");
+      background-size: 100%;
+
+      background-repeat: no-repeat;
+    }
+  }
+
+  .category-banner__item1 {
+    background-image: linear-gradient(
+        to left,
+        rgba(0, 0, 0, 0.6) 33%,
+        rgba(0, 0, 0, 0.1) 100%
+      ),
+      url("../public/images/categories/category-right.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .cyrcl {
+    @apply flex items-center justify-center rounded-full border;
+  }
+  .cyrcl-main {
+    @apply absolute bottom-0 right-0 left-0 mx-auto translate-y-1/2;
+  }
+  .cyrcl-lg {
+    @apply w-[303px] h-[303px] border-white/35;
+  }
+  .cyrcl-md {
+    @apply w-[145px] h-[154px] border-white/50;
+  }
+  .cyrcl-sm {
+    @apply w-[95px] h-[95px] border-white/80;
+  }
+}
+
+@layer utilities {
+
+@media screen and (max-width:480px) {
+  .services{
+    @apply relative
+  }
+  .services::after,
+  .services::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    display: block;
+
+  }
+  .services::after {
+
+    /* top: 50%;  اگر به این المنت مارجن هوتو ندیم مجبوریم که تاب 50 دصد بدیم که بیاد وست */
+    width: calc(100% - 2rem);
+    height: 1px;
+   @apply bg-[#D1D5DB] dark:bg-white/10
+  }
+
+  .services::before {
+    /* right: 50%; */
+    height:calc(100% + 20px);
+    width: 1px;
+    @apply bg-[#D1D5DB] dark:bg-white/10
+    
+  }
+  
+  /* .services::after,
+  .services::before{
+    content: "";
+    display: block;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    @apply bg-[#D1D5DB] dark:bg-white/10
+
+  }
+
+  .services::after{
+    width: 1px;
+    height: calc(100% + 20px);
+    
+  }
+  .services::before{
+    width: calc(100% - 2rem);
+    height:1px
+  } */
+
+
+}
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+  .under {
+    position: relative;
+  }
+  .under::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #ef4444;
+    position: absolute;
+    inset: 0;
+    top: -2px;
+    margin: auto;
+  }
+  .line {
+    position: relative;
+  }
+  .line::after {
+    content: "";
+    width: 1px;
+    height: 56px;
+    position: absolute;
+    top: 0;
+    bottom: 280px;
+    left: 0;
+    right: 0;
+
+    background-color: rgba(243, 243, 243, 0.2);
+  }
+
+  .Line-Home {
+    position: relative;
+    z-index: 0;
+  }
+  .Line-Home::before {
+    content: "";
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    inset: 0;
+    @apply bg-orange-300;
+  }
+}
