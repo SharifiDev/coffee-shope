@@ -78,7 +78,7 @@ export default function Footer() {
                                             <svg class="w-5 h-5 md-w-6 md:-h-6 ">
                                                 <use href='#email'></use>
                                             </svg>
-                                            sinasharifi@gmail.com
+                                            ali.sharifi6874@gmail.com
                                         </a>
                                         <div className='flex items-center gap-x-2 md:gap-x-3 '>
                                             <svg class="w-5 h-5 md-w-6 md:-h-6">
@@ -91,13 +91,13 @@ export default function Footer() {
                                 </div>
                                 <div className='flex items-center gap-1.5 md:gap-x-6 ltr-text font-danaMedium md:text-xl'>
                                     <a href="#" className='flex-center flex-grow items-center gap-x-2 text-zinc-700  bg-gradient-to-r from-orange-200 to-orange-300 rounded-xl h-12 '>
-                                        @golden-coffee
+                                        @ali_sharifi
                                         <svg className='w-[26px] h-[26px] md:w-[38px]  md:h-[38px] '>
                                             <use href='#telegram'></use>
                                         </svg>
                                     </a>
                                     <a href="#" className='flex-center flex-grow items-center gap-x-2 border border-orange-200 text-orange-200 rounded-xl h-12'>
-                                        @golden-coffee
+                                        @ali_sharifi
                                         <svg className='w-[26px] h-[26px] md:w-[38px]  md:h-[38px] '>
                                             <use href='#instagram'></use>
                                         </svg>
@@ -110,9 +110,9 @@ export default function Footer() {
                     <div className='boot    border-t  border-t-white/10  mt-11 text-gray-300 gap-x-5 flex-wrap pt-11'>
                         <div className=' '>
                             <div></div>
-                            <p >تمام حقوق این رابط کاربری متعلق به <span className='text-orange-200'>سبزلرن</span> میباشد و دانشجوی این دوره اجازه استفاده آن را در مصارف شخصی و تجاری ندارد.</p>
+                            <p >تمام حقوق این رابط کاربری متعلق به <span className='text-orange-200'>علی شریفی</span> میباشد و هیجکس اجازه استفاده آن را  ندارد.</p>
                         </div>
-                        <div className='ltr-text text-left text-footer '>Copyright © 2023 Golden Coffee. All rights reserved.</div>
+                        <div className='ltr-text text-left text-footer '>Copyright © 2023 Ali Sharifi. All rights reserved.</div>
                     </div>
                 </div>
             </footer>

@@ -5,7 +5,7 @@ export default function ContactUs() {
         <div className='Contact-u mb-16 md:mb-28'>
             <div className="container">
                 <div className="flex flex-col lg:flex-row items-center lg:items-start  gap-y-8 md:gap-x-5 text-zinc-700 dark:text-white">
-                    <img src="./public/images/contact.png" alt="contact as" className='w-[296px] ' />
+                    <img src="./images/contact.png" alt="contact as" className='w-[296px] ' />
                     <div>
                         <h3 className=' font-morabba text-2xl md:text-5xl mb-0.5 md:mb-1.5'>یکی از بهترین قهوه ها !</h3>
                         <span className='font-morabba text-[18px] md:text-3xl mb-5 md:mb-6 inline-block '>کیفیت قهوه را از ما بخواهید ...</span>

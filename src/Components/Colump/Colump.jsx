@@ -23,7 +23,7 @@ function Colump() {
 
             <div className="flex items-center w-full justify-between ">
               {/* section tow  */}
-              <div className="flex justify-center items-center gap-5  xl:gap-5 m-2 xl:mr-28">
+              <div className="flex justify-center items-center gap-5 gap-x-2 md:gap-x-5  xl:gap-5 m-2 xl:mr-28">
                 <div className="bg-white w-[72px] h-[72px] sm:w-[98px] sm:h-[98px] rounded-2xl flex justify-center items-end ">
                   <a href="#" className="flex flex-col items-center ">
                     <svg className="w-[33px] h-[33px] sm:w-12 sm:h-12">

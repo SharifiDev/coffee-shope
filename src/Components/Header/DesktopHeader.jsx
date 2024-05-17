@@ -5,7 +5,7 @@ import DeskTopMenu from '../Menues/DeskTopMenu'
 function DesktopHeader() {
   const [theme, setTheme] = useState(true);
 
-  let html = document.querySelector("#html");
+  let html = document.getElementById('theme');
 
   let changeTheme = () => {
     if (theme) {
@@ -27,7 +27,7 @@ function DesktopHeader() {
             <ul className="child:leading-[54px] flex items-center   gap-x-5 xl:gap-x-9  text-xl  child-hover:text-orange-300 tracking-tighter ">
               <li>
                 <a href="ٌ#">
-                  <img src="./../../images/app-logo.png" alt="logo" />
+                  <img src="./images/app-logo.png" alt="logo" />
                 </a>
               </li>
               <li class="text-white ">

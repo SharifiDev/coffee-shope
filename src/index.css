@@ -73,14 +73,14 @@
   }
   @media screen and (min-width: 1280px) {
     html.dark .bg-porducts {
-      background-image: url("../public/images/body-bg.png");
+      background-image: url("./images/body-bg.png");
     }
     .bg-porducts {
       background: linear-gradient(
           rgba(243, 244, 256, 0.65),
           rgba(243, 244, 256, 0.65)
         ),
-        url("../public/images/body-bg.png");
+        url("./images/body-bg.png");
       background-size: 100%;
 
       background-repeat: no-repeat;
@@ -93,7 +93,7 @@
         rgba(0, 0, 0, 0.6) 33%,
         rgba(0, 0, 0, 0.1) 100%
       ),
-      url("../public/images/categories/category-right.jpg");
+      url("./images/categories/category-right.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
