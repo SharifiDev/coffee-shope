@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/coffee-shope/static/css/main.ce601fb9.css",
-    "main.js": "/coffee-shope/static/js/main.8308d327.js",
+    "main.css": "/coffee-shope/static/css/main.c53dd535.css",
+    "main.js": "/coffee-shope/static/js/main.dd4ee011.js",
     "static/media/headerBgDesktop.webp": "/coffee-shope/static/media/headerBgDesktop.985f39c12e39a6e653ec.webp",
     "static/media/body-bg.png": "/coffee-shope/static/media/body-bg.db1e0a2d2db7a7f2a976.png",
     "static/media/category-right.jpg": "/coffee-shope/static/media/category-right.3d6ad9163d3659d19117.jpg",
@@ -13,11 +13,11 @@
     "static/media/Morabba-Medium.woff2": "/coffee-shope/static/media/Morabba-Medium.f43b343a3fdab75d4ad7.woff2",
     "static/media/Morabba-Light.woff2": "/coffee-shope/static/media/Morabba-Light.c98a9f827e3473976008.woff2",
     "index.html": "/coffee-shope/index.html",
-    "main.ce601fb9.css.map": "/coffee-shope/static/css/main.ce601fb9.css.map",
-    "main.8308d327.js.map": "/coffee-shope/static/js/main.8308d327.js.map"
+    "main.c53dd535.css.map": "/coffee-shope/static/css/main.c53dd535.css.map",
+    "main.dd4ee011.js.map": "/coffee-shope/static/js/main.dd4ee011.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce601fb9.css",
-    "static/js/main.8308d327.js"
+    "static/css/main.c53dd535.css",
+    "static/js/main.dd4ee011.js"
   ]
 }
